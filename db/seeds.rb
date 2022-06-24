@@ -26,12 +26,14 @@ end
 puts "5 blog posts created"
 
 
-9.times do |portfolio_itemitem|
+9.times do |items|
 	Portfolio.create(
-		title: "portfolio title: #{portfolio_item}",
+		title: "portfolio title: #{items}",
 		subtitle: "my great service",
 		body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lobortis efficitur lectus, nec lobortis lacus semper ullamcorper. Sed sed porta sem. Donec at viverra odio. Duis vel velit vestibulum, luctus nunc id, gravida nisi. Maecenas rhoncus dolor sit amet egestas congue.",
 		main_image: "https://via.placeholder.com/600x400",
 		thumb_image: "https://via.placeholder.com/350x200"
 		)
 end
+
+puts "9 blog posts created"
