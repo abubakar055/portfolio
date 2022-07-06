@@ -65,3 +65,7 @@ group :development do
 end
 
 gem 'friendly_id', '~> 5.1.0'
+
+gem 'sidekiq'
+
+gem 'devise', '~> 4.8', '>= 4.8.1'
